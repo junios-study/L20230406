@@ -35,22 +35,22 @@ int main()
 		Boars.push_back(new FBoar());
 	}
 
-	//while (1)
-	//{
-	//	Player->Move();
-	//	for (int i = 0; i < Goblins.size(); ++i)
-	//	{
-	//		Goblins[i]->Move();
-	//	}
-	//	for (int i = 0; i < Slimes.size(); ++i)
-	//	{
-	//		Slimes[i]->Move();
-	//	}
-	//	for (int i = 0; i < Boars.size(); ++i)
-	//	{
-	//		Boars[i]->Move();
-	//	}
-	//}
+	while (1)
+	{
+		Player->Move();
+		for (int i = 0; i < Goblins.size(); ++i)
+		{
+			Goblins[i]->Move();
+		}
+		for (int i = 0; i < Slimes.size(); ++i)
+		{
+			Slimes[i]->Move();
+		}
+		for (int i = 0; i < Boars.size(); ++i)
+		{
+			Boars[i]->Move();
+		}
+	}
 
 	delete Player;
 	for (int i = 0; i < Goblins.size(); ++i)

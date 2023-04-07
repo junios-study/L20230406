@@ -6,5 +6,7 @@ class FBoar : public FCharacter
 public:
 	FBoar();
 	~FBoar();
+
+	void Move();
 };
 

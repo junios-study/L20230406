@@ -6,5 +6,7 @@ class FGoblin : public FCharacter
 public:
 	FGoblin();
 	~FGoblin();
+
+	void Move();
 };
 

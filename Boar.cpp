@@ -11,3 +11,8 @@ FBoar::~FBoar()
 	std::cout << "¸äµÅÁö »èÁ¦" << std::endl;
 
 }
+
+void FBoar::Move()
+{
+	std::cout << "¸äµÅÁö ÀÌµ¿" << std::endl;
+}
