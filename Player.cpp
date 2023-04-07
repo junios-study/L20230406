@@ -9,7 +9,6 @@ FPlayer::FPlayer()
 FPlayer::~FPlayer()
 {
 	std::cout << "플레이어 삭제" << std::endl;
-
 }
 
 void FPlayer::Move()

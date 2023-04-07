@@ -7,6 +7,6 @@ public:
 	FGoblin();
 	~FGoblin();
 
-	void Move();
+	virtual void Move() override;
 };
 

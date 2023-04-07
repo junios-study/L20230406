@@ -7,6 +7,6 @@ public:
 	FBoar();
 	~FBoar();
 
-	void Move();
+	virtual void Move() override;
 };
 

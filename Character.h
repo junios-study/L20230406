@@ -5,12 +5,16 @@ public:
 	FCharacter();
 	~FCharacter();
 
+	//method, member function
+	virtual void Move();
+	void Attack();
+
+protected:
 	//property, member variable
 	int MP;
 	int HP;
 
-	//method, member function
-	void Move();
-	void Attack();
+private:
+
 };
 
