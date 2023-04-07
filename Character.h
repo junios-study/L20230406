@@ -2,6 +2,9 @@
 class FCharacter
 {
 public:
+	FCharacter();
+	~FCharacter();
+
 	//property, member variable
 	int MP;
 	int HP;

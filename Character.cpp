@@ -1,5 +1,16 @@
 #include "Character.h"
 #include <iostream>
+#include <array>
+
+FCharacter::FCharacter()
+{
+	std::cout << "캐릭터 생성" << std::endl;
+}
+
+FCharacter::~FCharacter()
+{
+	std::cout << "캐릭터 삭제" << std::endl;
+}
 
 void FCharacter::Move()
 {
